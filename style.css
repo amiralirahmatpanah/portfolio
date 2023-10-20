@@ -1,5 +1,5 @@
 *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
 }
 body {
@@ -8,19 +8,112 @@ body {
 }
 .items {
     display: flex;
-    width: 98%;
+    width: 95%;
     margin: auto;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 30px;
 }
 .items .text{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding-left: 170px;
 }
-
-.items .images{
-    
+.items .text .text-top img{
+    width: 450px;
+    margin-bottom: 15px;
+}
+.items .text .text-top p {
+    font-size: 18px;
+    color: #000000cc;
+    font-weight: 500;
+}
+.items .text .input {
+    margin-top: 20px;
+}
+.items .text .input p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.items .text .input input{
+    border-radius: 15px;
+    border: 2px solid #D4D7E3;
+    width: 450px;
+    height: 50px;
+    padding-left: 20px;
+    background: #F7FBFF;
+    transition: all 0.3s;
+    color: #8897AD;
+    margin-bottom: 20px;
+}
+.items .text .input input::placeholder{
+    color: #8897AD;
+    font-size: 15px;
+    font-weight: 600;
+}
+.items .text .input input:focus{
+    outline: none;
+    color: #8897AD;
+}
+.items .text .input input:hover{
+    background: #d2dce644;
+}
+.items .text .input .button{
+    margin-bottom: 25px;
+}
+.items .text .button a{
+    color: #1E4AE9;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 320px;
+}
+.items .text .button button{
+    border: none;
+    border-radius: 15px;
+    width: 460px;
+    height: 60px;
+    background: #162D3A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 450;
+}
+.items .text .app {
+    margin-top: 20px;
+}
+.items .text .app img{
+    width: 460px;
+}
+.items .text .app .text-img{
+    border-radius: 15px;
+    background: #F3F9FA;
+    width: 460px;
+    height: 60px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.items .text .app .text-img img{
+    width: 40px;
+    margin-bottom: -10px;
+    margin-right: 10px;
+}
+.items .text .app .text-img p{
+    font-size: 18px;
+    font-weight: 450;
+}
+.items .text .sign {
+    margin-top: 20px;
+}
+.items .text .sign p{
+    font-weight: 400;
+    font-size: 15px;
+}
+.items .text .sign a{
+    color: #1E4AE9;
 }
 .items .images img{
     width: 660px;
